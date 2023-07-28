@@ -4,18 +4,10 @@ import os
 
 print("")
 print("")
-
-# introduction
-print(" =============================================== Hello World!! ================================================")
-print('Hello World!!')
-
 print("")
-print(" My name is Open Guy,I make this tool With this help of tool you can open below things.......")
-
-print("\n\t 1.MICROSOFT WORD \t 2.MICROSOFT POWERPOINT \n\t 3.MICROSOFT EXCEL \t 4.GOOGLE CHROME \n\t 5.VLC PLAYER	 \t 6.ADOBE ILLUSTRATOR \n\t 7.ADOBE PHOTOSHOP \t 8.MICROSOFT EDGE \n\t 9.NOTEPAD	 \t 10.TELEGRAM \n\n\t\t	 0. FOR EXIT")
 
 print("\n	 (YOU CAN USE NUMBER OR YOU CAN DO CHAT LIKE 'OPEN NOTEBOOK' etc....)")
-
+print("BE AWARE THAT THIS CANNOT OPEN SOME APPS DUE TO THE OPERATING SYSTEM YOUR ON. ")
 print("\n ============================================ Welcome To My Tools ============================================")
 print("Welcome to my tools")
 print("")
