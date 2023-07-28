@@ -1,13 +1,22 @@
 # import required module
 
 import os
+import time
 
 print("")
 print("")
+
+# introduction
+print(" =============================================== Hello World!! ================================================")
+print('Hello World!!')
+
 print("")
+print(" My name is Open Guy,I make this tool With this help of tool you can open below things.......")
+
+print("\n\t 1.MICROSOFT WORD \t 2.MICROSOFT POWERPOINT \n\t 3.MICROSOFT EXCEL \t 4.GOOGLE CHROME \n\t 5.VLC PLAYER	 \t 6.ADOBE ILLUSTRATOR \n\t 7.ADOBE PHOTOSHOP \t 8.MICROSOFT EDGE \n\t 9.NOTEPAD	 \t 10.TELEGRAM \n\n\t\t	 0. FOR EXIT")
 
 print("\n	 (YOU CAN USE NUMBER OR YOU CAN DO CHAT LIKE 'OPEN NOTEBOOK' etc....)")
-print("BE AWARE THAT THIS CANNOT OPEN SOME APPS DUE TO THE OPERATING SYSTEM YOUR ON. ")
+
 print("\n ============================================ Welcome To My Tools ============================================")
 print("Welcome to my tools")
 print("")
@@ -19,6 +28,7 @@ while True:
     # take input
     print(" CHAT WITH ME WITH YOUR REQUIREMENTS -open-: ", end='')
     p = input("")
+    other = p
     p = p.upper()
     print(p)
 
@@ -50,12 +60,19 @@ while True:
         print(".")
         os.system("firefox")
 
-    elif ("PC" in p) or ("PCHARM" in p) or ("PYCHARM" in p) or ("PYCH" in p):
+    elif ("PC" in p) or ("PCHARM" in p) or ("PYCHARM" in p) or ("IDE" in p):
         print("Opening")
         print("PYCHARM (COMMUNITY) EDITION")
         print(".")
         print(".")
         os.system("pycharm")
+
+    # elif ("PY" in p) or ("PYTHON" in p) or ("PTHON" in p) or ("PY-CONSOLE" in p):
+    #     print("Opening")
+    #     print("PYTHON")
+    #     print(".")
+    #     print(".")
+    #     os.system("python")
 
     elif ("NOTE" in p) or ("NOTES" in p) or ("NOTEPAD" in p) or ("EDITOR" in p) or ("9" in p):
         print("Opening")
@@ -71,6 +88,12 @@ while True:
         print(".")
         os.system("Videos")
 
+    elif ("SOFT" in p) or ("SOFTWARE" in p) or ("DOWNLOAD" in p) or ("INSTALL" in p) or ("10" in p):
+        print("Opening")
+        print("SOFTWARE")
+        print(".")
+        print(".")
+        os.system("software")
 
 
     elif ("VLCPLAYER" in p) or ("PLAYER" in p) or ("VIDEO PLAYER" in p) or ("5" in p):
@@ -129,8 +152,10 @@ while True:
 
     # for invalid input
     else:
-        print(p)
-        print("Is Invalid,Please Try Again")
-        print("is Invalid,Please try again")
+        print("Opening")
+        print(other)
         print(".")
         print(".")
+        time.sleep(2)
+        print("error failed to open " + p)
+        os.system(other)
